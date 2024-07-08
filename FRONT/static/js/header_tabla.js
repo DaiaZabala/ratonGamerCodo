@@ -2,7 +2,7 @@
 let headerContent = `
 <header id="header">
     <div>
-            <a href="http://127.0.0.1:5001/">
+            <a href="http://127.0.0.1:5000/">
     <img id="logo-header" src="static/img/logo.jpg" alt="logo">
 </a>
 

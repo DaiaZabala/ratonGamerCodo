@@ -15,9 +15,8 @@ app = Flask(__name__)
 CORS(app)
 
 
-# Configurar a la app la DB
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://usuario:contraseña@localhost:3306/nombre_de_la_base_de_datos'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:@localhost:3306/usuariosgamers'
+# Configura la URI de la base de datos en PythonAnywhere
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://com24167:codo2024@com24167.mysql.pythonanywhere-services.com/com24167$default'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Crear un objeto db, para informar a la app que se trabajará con sqlalchemy
@@ -139,5 +138,5 @@ def borrar(id):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    app.run(debug=True)
 

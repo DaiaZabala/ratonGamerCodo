@@ -1,12 +1,13 @@
 //Contenido del encabezado
 let headerContent = `
 <header id="header">
-    <div>
-            <a href="http://127.0.0.1:5001/">
+     <div>
+            <a href="http://127.0.0.1:5000/">
     <img id="logo-header" src="static/img/logo.jpg" alt="logo">
 </a>
 
     </div>
+
 
     <p id="nombre-web">Ratón Gamer</p>
     <p id="app-admin">App Admin</p>
